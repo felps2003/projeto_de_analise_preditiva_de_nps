@@ -1,7 +1,8 @@
 # 📊 Case: NPS Preditivo em E-commerce
 Projeto de Análise de Dados e Estratégia de Experiência do Cliente
 
-Este projeto foi desenvolvido como parte do Tech Challenge (Fase 1). O objetivo central é transformar a gestão de satisfação de um e-commerce, saindo de uma postura reativa (esperar a nota do cliente) para uma proativa (antecipar a insatisfação com base em dados operacionais).
+Este projeto foi desenvolvido como parte da minha pós graduação em AI Cientist. O objetivo central é transformar a gestão de satisfação de um e-commerce, saindo de uma postura reativa (esperar a nota do cliente) para uma proativa (antecipar a insatisfação com base em dados operacionais).
+(Video apresentando os dados de forma executiva https://youtu.be/hymhS6NcA90)
 
 # 🎯 O Problema de Negócio
 Atualmente, o NPS é coletado apenas após o encerramento da jornada de compra. Isso gera um "ponto cego": a empresa só descobre que o cliente está insatisfeito quando o dano à marca já aconteceu.
@@ -18,6 +19,8 @@ analise_eda_nps.ipynb: Análise Exploratória de Dados, limpeza e visualização
 modelo_preditivo_nps.ipynb: Desenvolvimento do modelo de Machine Learning para predição de comportamento.
 
 models/: Modelos treinados salvos (arquivos .pkl).
+
+reports/: Apresentação em PDF sobre as análises realizadas.
 
 PERGUNTAS.txt: Documentação das etapas de entendimento de negócio e respostas teóricas do desafio.
 
