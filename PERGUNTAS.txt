@@ -1,0 +1,25 @@
+1 - ETAPA
+
+● Qual problema de negócio está sendo resolvido? 
+    R: O ecommerce quer deixar de ser reativo as suas notas e passar a ser proativo. Identificando e prevendo quais clientes estão satisfeitos ou não, antes da pesquisa de NPS, assim conseguindo agir de forma efetiva no cliente detrator de forma antecipada.
+● Por que o NPS é importante para um e-commerce? 
+    R: Ele auxilia sendo um indicador de lealdade do cliente. Um cliente promotor, acaba por muitas vezes realizando recompras, e realizando o famoso boca a boca, atraindo novos clientes de forma organica, ajudando a empresa a ganhar market share contra os concorrentes.
+● Quais áreas poderiam se beneficiar desses insights? Exemplos: 
+logística, atendimento, pricing, produto etc.
+    R: Entendo que são diversas áreas, citando algumas:
+        - Comercial/Pricing: Auxilia a área a entender se com mais desconto (campo discount_value) o cliente tende a dar mais boas notas. Ou se um desconto bem aplicado acaba por construir mais clientes promotores.
+        - Atendimento: Ajuda o time a entender se com um maior numero de contatos (campo customer_service_contacts) unido ao tempo de resolução (resolution_time_days) afetam a nota, ou seja dessa maneira já podemos identificar se o padrão de clientes detratores está sendo no atendimento, logo a retenção por contato pode estar atrapalhando a experiencia do cliente.
+        - logística: Como se trata de um ecommerce, muitas vezes o tempo de entrega pode estar afetando os clientes, então podemos avaliar o tempo de entrega (campo delivery_time_days) e identificar se isso está afetando de forma positiva ou negativa os nossos clientes, e também com os dias de atraso (delivery_delay_days).
+● Outros Possiveis indicadores:
+    R: É essencial analisar os SLAs logísticos praticados pelo mercado. De nada adianta cumprirmos o nosso prazo de entrega de 7 dias se o padrão do mercado passou a ser de 2 dias; a expectativa do cliente muda e, consequentemente, o nosso NPS será impactado negativamente por fatores externos.
+
+2 - ETAPA
+
+● Qual variável representa a satisfação do cliente? 
+    R: Nesse cenário é a variável nps_score.
+● Por que ela foi escolhida? 
+    R: Ela foi escolhida pois ela reflete diretamente a nota de satisfação final dada pelo cliente sendo de (0 a 10).
+● Em que momento da jornada essa informação é coletada? 
+    R: A coleta dessa informação acontece logo após a experiência de compra (normalmente após o cliente receber o produto e interagir com a loja).
+● Existe algum risco de usar essa variável de forma inadequada?
+    R: Sendo uma pesquisa voluntária feita logo após a compra, muitas vezes os dados podem estar enviesados por um viés de seleção. Ou seja na maioria das vezes apenas os clientes extremamentes satisfeitos ou totalmente decepcionados, tendem a responder a pesquisa, fazendo ela ter picos extremos. O que acaba por não representar o comportamente dos clientes silenciosos.
